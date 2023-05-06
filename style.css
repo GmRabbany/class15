@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.fixed-width{
+    width: 1500px;
+    
+}
+
+
+/* header css--------- */
+.header-section{}
+.header-section .logo{
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+.header-section .logo a{
+    text-decoration: none;
+}
+.header-section .menu{
+    float: right;
+    width: 70%;
+}
+.header-section .menu ul{}
+.header-section .menu ul li{}
+.header-section .menu ul li a{}*{
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.fixed-width{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* header css--------- */
+.header-section{
+    background-color: #0dbf9b;
+}
+.header-section .logo{
+    float: left;
+    width: 30%;
+}
+.header-section .logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    height: 50px;
+    line-height: 50px;
+}
+.header-section .menu{
+    float: right;
+    width: 70%;
+    text-align: end;
+}
+.header-section .menu ul{
+    list-style: none;
+}
+.header-section .menu ul li{
+    display: inline-block;
+    /* border-right: 1px solid #fff; */
+}
+.header-section .menu ul li a{
+    text-decoration: none;
+    margin-left: 9px;
+    font-size: 20px;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #fff;
+    transition: .4s;
+    margin-left: -4px;
+}
+
+.header-section .menu ul li a:hover{
+    background-color: #099276;
+
+}
+
+
+/* banner sectoin------ */
+.banner-section{}
+.banner-section .banner-caption{
+    background: url(./image/header-bg01.jpg) center no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    color: #fff;
+    text-align: center;
+}
+.banner-section .banner-caption h1{
+    font-size: 40px;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.banner-section .banner-caption p{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.banner-section .banner-caption button{
+    padding: 10px 20px;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    transition: .4s;
+    margin-top: 20px;
+}
+
+.banner-section .banner-caption button:hover{
+    background-color: #fff;
+    color: #099276;
+    cursor: pointer;
+}
+
+/* service-section */
+
+.service-section{
+    text-align: center;
+}
+.service-section .service-title{
+    padding: 40px 0;
+}
+.service-section .service-title h1{
+    font-size: 40px;
+    margin: 20px;
+}
+.service-section .service-title p{
+    font-size: 20px;
+}
+
+
+.service-section{
+    border-bottom: 3px solid #0dbf9b;
+    padding: 40px 0;
+}
+.service-section .service-item {
+    float: left;
+    width: 25%;
+    padding: 20px 55px;
+    /* margin: 10px; */
+    box-sizing: border-box;
+    margin-bottom: 40px;
+
+}
+.service-section .service-item span i{
+    font-size: 30px;
+    color: #0dbf9b;
+    padding: 10px;
+
+
+}
+.service-section .service-item h3 {
+    font-size: 20px;
+    margin: 10px;
+}
+.service-section .service-item p{
+    font-size: 17px;
+}
+
+/* about-section */
+
+.about-section{
+    text-align: center;
+    padding: 30px 0;
+    margin: 50px 0;
+}
+.about-section .about-title{}
+.about-section .about-title h1{}
+.about-section .about-title p{}
+
+.about-section .about-content{
+    margin-top: 50px;
+}
+.about-section .about-content .image{
+    float: left;
+    width: 48%;
+    margin: 10px;
+}
+.about-section .about-content .image img{
+    width: 500px;
+    height: auto;
+}
+.about-section .about-content .caption{
+    float: right;
+    width: 48%;
+    text-align: start;
+}
+.about-section .about-content .caption .c1{
+    padding: 20px 10px;
+}
+.about-section .about-content .caption .c1 h3{}
+.about-section .about-content .caption .c1 p{}
+
+
+
+/* .contact-secton */
+.contact-section{
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f6f6f6
+}
+.contact-section .contact-title{
+    margin: 30px 0;
+}
+.contact-title h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.contact-title p{
+    font-size: 20px;
+    font-weight: 300;
+}
+.contact-section .contact-media{}
+.contact-section .contact-media .m1{
+    width: 33.3%;
+    float: left;
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+.contact-section .contact-media .m1 span{
+    color: #10867e;
+    font-size: 40px;
+    padding: 20px;
+    display: block;
+}
+.contact-section .contact-media .m1 p{
+    padding: 10px 20px;
+}
+
+
+
+/* footer section */
+
+.footer-section{
+    text-align: center;
+}
+.footer-section .footer-menu{
+    background: #12c6a3;
+}
+.footer-section .footer-menu ul{
+    list-style: none;
+}
+.footer-section .footer-menu ul li{}
+.footer-section .footer-menu ul li{
+    display: inline-block;
+}
+.footer-section .footer-menu ul li a{
+    font-size: 35px;
+    margin: 15px 20px;
+    display: block;
+    color: #ffffff;
+} 
+.footer-section .footer-menu ul li i{}
+.footer-section .footer-copy{
+    padding:  10px 0;
+    background: #000;
+    color: #ddd;
+}
+.footer-section .footer-copy h3{}
